@@ -1,0 +1,88 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Paytm — Mobile Recharge</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="phone-frame">
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand">
+          <a href="index.html" class="brand-link">
+            <img src="./assets/img/paytm_icon.png" alt="logo" class="logo">
+            <span class="brand-name">Paytm</span>
+          </a>
+        </div>
+
+        <div class="top-actions">
+          <button class="icon-btn" aria-label="Scan QR">
+            <img src="assets/img/icon-qrr.jpg" alt="">
+          </button>
+          <button class="icon-btn" aria-label="Notifications">
+            <img src="assets/img/noti_bell.png" alt="">
+          </button>
+          <a class="icon-btn" href="profile.html" aria-label="Profile">
+            <img src="./assets/img/profile-pic.jpeg" alt="">
+          </a>
+        </div>
+      </header>
+
+      <main class="main-area">
+        <section class="section">
+          <div class="section-head">
+            <h3>Mobile Recharge</h3>
+          </div>
+
+          <form class="recharge-form" action="#" method="get" onsubmit="return false;">
+            <label class="field">
+              <span class="field-label">Mobile number</span>
+              <input type="tel" name="mobile" placeholder="For ex : +91 8431374835" class="input"><!-- i kept tel , here cause we dont need arrow keys but we shud add no only -->
+            </label>
+
+            <label class="field">
+              <span class="field-label">Amount</span>
+              <div class="row">
+                <input type="number" name="amount" placeholder="Enter amount" class="input"> <!-- number gives us arrows, and we can also add number  -->
+                <button class="preset">₹911</button>
+              </div>
+            </label>
+
+            <div class="form-actions">
+              <a href="payments.html" class="btn primary">Proceed to Pay</a>
+              <a href="index.html" class="btn ghost">Back</a>
+              
+            </div>
+          </form>
+        </section>
+      </main>
+
+      <nav class="bottom-nav" role="navigation">
+        <a class="nav-item" href="index.html">
+          <img src="assets/img/paytm_icon.png" alt="">
+          <span>Home</span>
+        </a>
+        <a class="nav-item active" href="recharge.html">
+          <img src="assets/img/icon-mobile.png" alt="">
+          <span>Recharge</span>
+        </a>
+        <a class="nav-item" href="payments.html">
+          <img src="assets/img/icon-pay.png" alt="">
+          <span>Pay</span>
+        </a>
+        <a class="nav-item" href="wallet.html">
+          <img src="assets/img/wallet.png" alt="">
+          <span>Wallet</span>
+        </a>
+        <a class="nav-item" href="profile.html">
+          <img src="assets/img/profile-pic.jpeg" alt="">
+          <span>Profile</span>
+        </a>
+      </nav>
+    </div>
+  </div>
+</body>
+</html>
